@@ -50,7 +50,10 @@
 .signup a {
     color: #fff;
 }
-.features-sub-menu {
+.li-padding {
+    padding: 10px;
+}
+.features:hover .features-sub-menu {
     border: 1px solid rgba(0, 0, 0, .1);
     box-shadow: -1.5px 1.5px 1px 0 rgba(0, 0, 0, .1);
     display: flex;
@@ -58,14 +61,19 @@
     list-style: none;
     position: absolute;
     text-align: center;
-    top: 30px;
+    top: 40px;
+}
+.features-sub-menu {
+    display: none;
 }
 .features-sub-menu li{
     width: 100%;
+    padding: 10px;
+
 }
 .features-sub-menu li a {
-    font-size: .8em;
-    font-weight: 500;
+    font-size: .9em;
+    font-weight: 600;
 }
 .features-sub-menu::after {
     content: "";
